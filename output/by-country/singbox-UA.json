@@ -6,21 +6,23 @@
     {
       "type": "vless",
       "tag": "🇺🇦 乌克兰 (Ukraine) 01 - xiaohe",
-      "server": "83.147.18.75",
+      "server": "188.225.25.71",
       "server_port": 443,
-      "uuid": "5de0c218-0138-45d8-94d2-c2c3f37a1a6d",
-      "flow": "xtls-rprx-vision",
+      "uuid": "b3a7fe26-2ea7-4aa1-ba7a-8ef37a1a71c5",
       "tls": {
         "enabled": true,
-        "server_name": "www.bing.com",
+        "server_name": "s3-ge.videocdnpink.video",
+        "insecure": false,
         "utls": {
           "enabled": true,
-          "fingerprint": "qq"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "tfFzmbVByvoZxxIEUiHMv22_k0-nQz00L0XjU0bd_Fc",
-          "short_id": "7f1e29593aa94ad1"
+          "fingerprint": "android"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/api/53d53ac3/a7fa61/096357bebc62",
+        "headers": {
+          "Host": "s3-ge.videocdnpink.video"
         }
       }
     },
