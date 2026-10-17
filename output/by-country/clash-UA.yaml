@@ -5,20 +5,18 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇺🇦 乌克兰 (Ukraine) 01 - xiaohe
-  server: 188.225.25.71
+  server: 83.147.18.75
   port: 443
   udp: true
   type: vless
-  uuid: b3a7fe26-2ea7-4aa1-ba7a-8ef37a1a71c5
+  uuid: 5de0c218-0138-45d8-94d2-c2c3f37a1a6d
+  flow: xtls-rprx-vision
   tls: true
-  servername: s3-ge.videocdnpink.video
-  skip-cert-verify: false
-  client-fingerprint: android
-  network: ws
-  ws-opts:
-    path: /api/53d53ac3/a7fa61/096357bebc62
-    headers:
-      Host: s3-ge.videocdnpink.video
+  reality-opts:
+    public-key: tfFzmbVByvoZxxIEUiHMv22_k0-nQz00L0XjU0bd_Fc
+    short-id: 7f1e29593aa94ad1
+  servername: www.bing.com
+  client-fingerprint: qq
 proxy-groups:
 - name: PROXIES
   type: select
